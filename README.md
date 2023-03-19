@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# What is this?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains the code needed to build a website for my profile website, which details information about me.
+
+Uses [Create React App](https://github.com/facebook/create-react-app) to bootstrap React.
 
 ## Available Scripts
 
