@@ -3,7 +3,7 @@
       content: '|';
       font-weight: 900;
       font-family: inherit;
-      color: rgba(var(--white), 0.9);
+      color: rgba($white, 0.9);
       -webkit-animation: blink 2s step-end infinite;
       animation: blink 2s step-end infinite;
     }

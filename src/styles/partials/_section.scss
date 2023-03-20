@@ -68,9 +68,9 @@
   }
 
   .tag {
-    border: thin solid var(--cyan);
+    border: thin solid $cyan;
     border-radius: 15px;
-    color: var(--cyan);
+    color: $cyan;
     font-size: 0.85rem;
     margin: 0.25rem 0.25rem;
     padding: 0 0.65rem;
