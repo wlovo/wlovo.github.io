@@ -1,0 +1,12 @@
+main {
+  min-width: 100vw;
+  min-height: 70vh;
+}
+
+$section-headers: h1, h2, h4, h5, h6;
+
+@each $header in $section-headers {
+  #{$header} {
+    font-variant: small-caps;
+  }
+}

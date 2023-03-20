@@ -1,0 +1,24 @@
+.projects {
+  .project-card {
+    background-color: var(--dark);
+    border: thin solid var(--secondary);
+    margin: 0.75rem 0;
+
+    a.nav-link {
+      color: var(--teal);
+      display: inline-block;
+      font-size: 0.9rem;
+      margin: 0 0.25rem;
+      padding: 0 0.25rem;
+    }
+  }
+
+  .card-img {
+    opacity: 0.65;
+  }
+
+  .card-body {
+    height: fit-content;
+    margin-top: auto;
+  }
+}
