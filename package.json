@@ -16,6 +16,7 @@
     "@types/react-dom": "^18.0.11",
     "bootstrap": "^5.3.0-alpha1",
     "lodash": "^4.17.21",
+    "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
@@ -29,7 +30,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\""
   },
   "browserslist": {
     "production": [
@@ -44,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "eslint": "^8.36.0"
@@ -58,13 +61,18 @@
     "bracketSameLine": true,
     "jsxSingleQuote": false,
     "printWidth": 120,
-    "proseWrap": "preserve",
     "quoteProps": "as-needed",
     "requirePragma": false,
     "semi": true,
     "singleQuote": false,
     "tabWidth": 2,
     "trailingComma": "all",
-    "useTabs": false
+    "useTabs": false,
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "importOrder": [
+      "^[./]",
+      "<THIRD_PARTY_MODULES>"
+    ]
   }
 }
