@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Nav, Navbar } from "react-bootstrap";
 
 const Header = (): JSX.Element => {
   const [toggled, setToggled] = useState(false);
@@ -10,7 +10,7 @@ const Header = (): JSX.Element => {
       <Navbar.Toggle
         aria-controls="navbar-nav"
         label="Toggle the navigation bar"
-        className={toggled ? 'rotate-in' : 'rotate-out'}
+        className={toggled ? "rotate-in" : "rotate-out"}
         onClick={() => setToggled(!toggled)}
       />
       <Navbar.Collapse id="navbar-nav">

@@ -1,9 +1,9 @@
-import { ReportHandler } from 'web-vitals';
+import { ReportHandler } from "web-vitals";
 
 const reportWebVitals = (onPerfEntry?: ReportHandler) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
     // Voided until optimization is needed.
-    void import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+    void import("web-vitals").then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
       getCLS(onPerfEntry);
       getFID(onPerfEntry);
       getFCP(onPerfEntry);
