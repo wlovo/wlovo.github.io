@@ -1,8 +1,9 @@
-import React from "react";
-import { Container, Col, Row } from "react-bootstrap";
+import HorizontalList from "./HorizontalList";
 import Section from "./Section";
 import TimelineHeader from "./TimelineHeader";
-import HorizontalList from "./HorizontalList";
+
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 
 interface EducationInfoProps {
   title: string;
@@ -39,26 +40,30 @@ const EducationInfo = ({ title, text }: EducationInfoProps): JSX.Element => (
   </Row>
 );
 
-const Education = (): JSX.Element => (
-  <Section id="education" className="education" title="Education">
-    <Container>
-      <TimelineHeader
-        name={"James Madison University"}
-        title={"Computer Science, B.S."}
-        location={"Harrisonburg, VA"}
-        date={"May 2020"}
-      />
-      <Container fluid className="mb-3 mb-md-2">
-        {educationInfo.map(({ title, text }: EducationInfoProps) => (
-          <EducationInfo title={title} text={text} />
-        ))}
+const Education = (): JSX.Element => {
+  const eduInfoMap: JSX.Element[] = educationInfo.map((props: EducationInfoProps, index: number) => (
+    <EducationInfo key={index} {...props} />
+  ));
+
+  return (
+    <Section id="education" className="education" title="Education">
+      <Container>
+        <TimelineHeader
+          name={"James Madison University"}
+          title={"B.S. Computer Science - GPA: 3.94"}
+          location={"Harrisonburg, VA"}
+          date={"May 2020"}
+        />
+        <Container fluid className="mb-3 mb-md-2">
+          {eduInfoMap}
+        </Container>
+        <Container fluid>
+          <h6>Relevant Coursework:</h6>
+          <HorizontalList list={coursework} />
+        </Container>
       </Container>
-      <Container fluid>
-        <h6>Relevant Coursework:</h6>
-        <HorizontalList list={coursework} />
-      </Container>
-    </Container>
-  </Section>
-);
+    </Section>
+  );
+};
 
 export default Education;
