@@ -12,7 +12,6 @@
 .console {
   background-color: var(--bs-dark);
   box-shadow: 0.25rem 0.25rem 0.4rem 0 rgba($color: $dark, $alpha: 0.6);
-  color: $white;
   font-size: 1.05rem;
   font-weight: 500;
   font-family: 'Courier New', Courier, monospace;
@@ -22,6 +21,7 @@
 
   .entry {
     margin-bottom: 0.05rem;
+    color: $white;
 
     &::before {
       content: '> ';
@@ -33,7 +33,7 @@
   }
 
   .response {
-    color: rgba($white, 0.8) !important;
+    color: rgba($white, 0.80) !important;
     margin-bottom: 0.25rem;
     font-size: inherit !important;
     font-family: inherit !important;

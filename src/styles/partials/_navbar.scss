@@ -14,11 +14,9 @@
   margin: auto;
   @include media-breakpoint-up(md) {
     max-width: $content-width-md;
-    min-width: $content-width-md - 40vw;
   }
   @include media-breakpoint-up(xl) {
     max-width: $content-width-xl;
-    min-width: $content-width-xl - 40vw;
   }
 
   a.navbar-brand {
