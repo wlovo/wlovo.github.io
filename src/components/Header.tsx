@@ -8,7 +8,7 @@ const Header = (): JSX.Element => {
 
   return (
     <Navbar expand={false}>
-      <Navbar.Brand href="/" className="d-flex align-items-center">
+      <Navbar.Brand as={"div"} className="d-flex align-items-center">
         <Image src={ProPic as string} alt="William Lovo" width="50" height="50" className="me-1" roundedCircle thumbnail />
         William Lovo
       </Navbar.Brand>
