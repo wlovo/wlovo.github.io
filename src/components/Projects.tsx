@@ -15,21 +15,26 @@ interface ProjectCardProps extends TagProps {
 const projects: ProjectCardProps[] = [
   {
     name: "Personal Profile Website",
-    desc: "A simple blog.",
-    links: [["GitHub", "/"]],
-    tags: ["Node.js", "React", "Express"],
+    desc: [
+      "This webpage!",
+      "A simple, minimalist, and responsive website.",
+      "Showcases the use of React, Redux, Bootstrap, and SASS to create a responsive website.",
+      // "Also demonstrates the process of deploying a static website to AWS.",
+    ],
+    links: [["GitHub", "https://github.com/wlovo/profile-site-frontend.react"]],
+    tags: ["Typescript", "React", "Redux", "Bootstrap", "SASS"],
   },
   {
     name: "Blog App",
     desc: [
       "A sample full-stack blog app built with React, Redux, and Bootstrap for the front-end and Express, Sequelize, and MySQL for the back-end.",
-      "Demonstrates the Request/Response process through a RESTful API and CRUD operations on a modeled MySQL database.",
+      "Showcases the Request/Response process through a RESTful API and CRUD operations on a modeled MySQL database.",
     ],
     links: [
       ["GitHub (React)", "https://github.com/wlovo/blog-app-frontend"],
       ["GitHub (Node)", "https://github.com/wlovo/blog-app-backend"],
     ],
-    tags: ["Node.js", "React", "Redux", "Bootstrap", "Sequelize", "Express", "MySQL"],
+    tags: ["Javascript", "Node.js", "React", "Redux", "Bootstrap", "Sequelize", "Express", "MySQL"],
   },
 ];
 
