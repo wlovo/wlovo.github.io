@@ -29,7 +29,7 @@ const experiences: ExperienceProps[] = [
       "Maintained 100% availability of an essential service during the migration of a dependency by designing and executing a blue- green deployment in coordination with various teams",
       "Performed other software engineering tasks such as write production code, code reviews for colleagues, enforce best practices, draft system designs, write documentation, troubleshoot and debug software.",
     ],
-    tags: ["AWS", "Java", "Kotlin", "Go", "Typescript", "Node.js", "React", "Python", "CI/CD", "Serverless Applications", "Devfile Open Standard"],
+    tags: ["AWS", "Java", "Kotlin", "Go", "Typescript", "Node.js", "React", "Python", "CI/CD", "System Design", "Serverless Applications", "Devfile Open Standard"],
   },
   {
     key: "gen-impact",
@@ -38,8 +38,8 @@ const experiences: ExperienceProps[] = [
     location: "Harrisonburg, VA",
     date: "Oct 2018 - Oct 2019",
     desc: [
-      "Contributed to 5+ full-stack web applications using various web-related technologies.",
-      "Helped design 2 single-page applications after attending design planning calls with stakeholders to meet their business needs.",
+      "Contributed to 5+ full-stack web applications by writing code targeting various web-related technologies.",
+      "Helped design 2 single-page applications by attending calls with stakeholders to understand and meet their business needs.",
       "Mentored 2 interns and 1 new employee.",
     ],
     tags: ["Javascript", "HTML", "CSS", "Node.js", "React", "MySQL", "Express", "Next.js", "Redux", "Jest"],
