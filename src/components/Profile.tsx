@@ -17,7 +17,7 @@ const profile = {
     research: "Machine Learning",
     graduated: "May 2020",
   },
-  experience: {
+  workExperience: {
     active: `${experienceDuration.years()} years and ${experienceDuration.months()} months`,
     mostRecent: {
       company: "Amazon Web Services",

@@ -45,7 +45,7 @@ const ProjectCard = ({ name, img, desc, links, tags }: ProjectCardProps) => {
         {img && <Card.Img src={img} />}
         <Card.Body>
           <Card.Title>{name}</Card.Title>
-          <Card.Text>{desc && isArray(desc) ? desc.map((d, i) => <p key={i}>{d}</p>) : desc}</Card.Text>
+          <Card.Text>{desc && isArray(desc) ? desc.join(" ") : desc}</Card.Text>
           {tags && <Tags tags={tags} />}
         </Card.Body>
         <Card.Footer>
