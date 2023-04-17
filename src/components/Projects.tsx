@@ -37,7 +37,7 @@ const projects: ProjectCardProps[] = [
     links: [
       ["JMU Scholarly Commons", "https://commons.lib.jmu.edu/honors202029/86/"],
     ],
-    tags: ["Javascript", "Node.js", "React", "Redux", "Bootstrap", "Sequelize", "Express", "MySQL"],
+    tags: ["Python", "Keras", "TensorFlow", "Machine Learning", "Anomaly Detection", "Data Science", "Data Analytics"],
   },
   {
     name: "Blog App",
