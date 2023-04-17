@@ -4,6 +4,8 @@ import Tags, { TagProps } from "./Tags";
 import isArray from "lodash/isArray";
 import React from "react";
 import { Card, Col, Container, NavLink, Row } from "react-bootstrap";
+import FD from "../images/detecting-credit-card-fraud.png"
+import PW from "../images/profile-website-pic.png"
 
 interface ProjectCardProps extends TagProps {
   name: string;
@@ -15,6 +17,7 @@ interface ProjectCardProps extends TagProps {
 const projects: ProjectCardProps[] = [
   {
     name: "Personal Profile Website",
+    img: PW as string,
     desc: [
       "This webpage!",
       "A simple, minimalist, and responsive website.",
@@ -23,6 +26,18 @@ const projects: ProjectCardProps[] = [
     ],
     links: [["GitHub", "https://github.com/wlovo/profile-site-frontend.react"]],
     tags: ["Typescript", "React", "Redux", "Bootstrap", "SASS"],
+  },
+  {
+    name: "Fraud Detection",
+    img: FD as string,
+    desc: [
+      "Fraud Detection paper.",
+      "Proposed model.",
+    ],
+    links: [
+      ["JMU Scholarly Commons", "https://commons.lib.jmu.edu/honors202029/86/"],
+    ],
+    tags: ["Javascript", "Node.js", "React", "Redux", "Bootstrap", "Sequelize", "Express", "MySQL"],
   },
   {
     name: "Blog App",
