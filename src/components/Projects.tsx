@@ -21,7 +21,7 @@ const projects: ProjectCardProps[] = [
     img: PW as string,
     desc: [
       "This webpage!",
-      "A simple, minimalist, and responsive website.",
+      "A simple, minimalist, and responsive website to talk about myself and my work.",
       "Showcases the use of React, Redux, Bootstrap, and SASS to create a responsive website.",
       // "Also demonstrates the process of deploying a static website to AWS.",
     ],
