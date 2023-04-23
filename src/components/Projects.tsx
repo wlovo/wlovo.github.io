@@ -22,7 +22,7 @@ const projects: ProjectCardProps[] = [
     desc: [
       "This webpage!",
       "A simple, minimalist, and responsive website to talk about myself and my work.",
-      "Showcases the use of React, Redux, Bootstrap, and SASS to create a responsive website.",
+      "Showcases the use of Typescript, React, Redux, Bootstrap, and SASS to create a responsive website.",
       // "Also demonstrates the process of deploying a static website to AWS.",
     ],
     links: [["GitHub", "https://github.com/wlovo/profile-site-frontend.react"]],

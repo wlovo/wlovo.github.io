@@ -10,7 +10,7 @@ const Footer = () => (
   <footer>
     <Navbar>
       <Nav>
-        <Navbar.Brand>You can find me on:</Navbar.Brand>
+        <Navbar.Brand>Find me on:</Navbar.Brand>
         {links
           ? links.map(([name, link]) => (
               <Nav.Link target="_blank" rel="nofollow noopener noreferrer" href={link}>
