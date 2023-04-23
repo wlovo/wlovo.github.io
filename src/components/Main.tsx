@@ -9,8 +9,8 @@ const Main = (): JSX.Element => {
   return (
     <div>
       <Profile />
-      <Education />
       <Experience />
+      <Education />
       <Projects />
     </div>
   );

@@ -11,19 +11,19 @@ const experienceDuration = moment.duration(moment().diff(moment("2019-06-01")))
 const profile = {
   fullName: "William H. Lovo",
   location: "Harrisonburg, VA",
+  experience: {
+    time: `${experienceDuration.years()} years and ${experienceDuration.months()} months`,
+    current: {
+      company: "Amazon Web Services",
+      title: "Software Development Engineer II",
+      since: "July 2020",
+    },
+  },
   education: {
     name: "James Madison University",
     major: "Computer Science",
     research: "Machine Learning",
     graduated: "May 2020",
-  },
-  workExperience: {
-    yearsOfExperience: `${experienceDuration.years()} years and ${experienceDuration.months()} months`,
-    mostRecent: {
-      company: "Amazon Web Services",
-      title: "Software Development Engineer II",
-      since: "July 2020",
-    },
   },
 };
 
