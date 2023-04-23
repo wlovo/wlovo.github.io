@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "NodeJS frontend for my personal site.",
   "author": "wlovo <will9637@gmail.com>",
+  "homepage": "https://wlovo.github.io",
   "license": "MIT",
   "private": true,
   "dependencies": {
@@ -27,6 +28,8 @@
     "webpack": "^5.76.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
