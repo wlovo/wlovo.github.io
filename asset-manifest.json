@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c89cc5d.css",
+    "main.js": "/static/js/main.0d1f783c.js",
+    "static/js/496.652ebaf7.chunk.js": "/static/js/496.652ebaf7.chunk.js",
+    "static/media/NewProPic.png": "/static/media/NewProPic.6f92efbb41a236e0216c.png",
+    "static/media/profile-website-pic.png": "/static/media/profile-website-pic.0979fbe497be04534213.png",
+    "static/media/detecting-credit-card-fraud.png": "/static/media/detecting-credit-card-fraud.a35675487faf2c0cc3af.png",
+    "static/media/blog-website.png": "/static/media/blog-website.1acf97ee8507548a51a7.png",
+    "static/media/Resume-4.0.pdf": "/static/media/Resume-4.0.a5c5349ce124a397ae1b.pdf",
+    "index.html": "/index.html",
+    "main.0c89cc5d.css.map": "/static/css/main.0c89cc5d.css.map",
+    "main.0d1f783c.js.map": "/static/js/main.0d1f783c.js.map",
+    "496.652ebaf7.chunk.js.map": "/static/js/496.652ebaf7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c89cc5d.css",
+    "static/js/main.0d1f783c.js"
+  ]
+}
